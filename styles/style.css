@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(51,50,130,1) 0%, rgba(99,97,201,1) 1%, rgba(116,116,255,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+h1{
+    color: #FFF;
+    padding: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.area{
+    display: flex;
+    flex-wrap: wrap;
+    width: 320px;
+    padding-bottom: 60px;
+}
+
+.item{
+    padding: 20px;
+    width: 60px;
+    height: 40px;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.item:hover{
+    cursor: pointer;
+    background-color: rgb(94, 94, 254);
+}
+
+.lastRow{
+    border-bottom: 0;
+}
+
+.lastColumn{
+    border-right: 0;
+}
+
+.circle{
+    background-image: url('https://www.pngall.com/wp-content/uploads/13/Circle-PNG-Clipart.png');
+    background-position: 50%;
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+
+.x{
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/009/344/496/small/x-transparent-free-png.png');
+    background-position: 0%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#mensagem{
+    display: none;
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    background-color: #2fdd7a;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: white;
+}
